@@ -1,0 +1,380 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- displays site properly based on user's device -->
+
+		<link
+			rel="icon"
+			type="image/png"
+			sizes="32x32"
+			href="./images/favicon-32x32.png"
+		/>
+		<link rel="stylesheet" href="style.css" />
+
+		<title>Easybank landing page</title>
+	</head>
+
+	<!-- class="" -->
+	<body class="sm:overflow-x-hidden">
+		<header class="m-[0 auto] max-w-[1500px] py-4 w-full sm:min-w-[1200px]">
+			<!-- items-center     w-full "  -->
+			<nav
+				class="flex justify-between items-center w-full px-6 sm:px-[100px] bg-white fixed top-0 left-0 right-0 py-4 z-20"
+			>
+				<!-- logo -->
+				<div>
+					<img src="./images/logo.svg" alt="logo" />
+				</div>
+
+				<!-- nav-links -->
+				<!-- border-black border-2 -->
+				<!-- -->
+				<div class="hidden sm:flex text-lg">
+					<!--  justify-between w-[350px] " -->
+					<ul class="flex gap-7 text-[#9698a6] text-sm">
+						<li><a href="/">Home</a></li>
+						<li><a href="/">About</a></li>
+						<li><a href="/">Contact</a></li>
+						<li><a href="/">Blog</a></li>
+						<li><a href="/">Careers</a></li>
+					</ul>
+				</div>
+
+				<img src="./images/icon-hamburger.svg" alt="" class="sm:hidden" />
+
+				<!-- call-to-action -->
+				<!-- -->
+				<div
+					class="hidden sm:flex rounded-full bg-gradient-to-r from-[#31d35c] to-[#2bb7da] px-3 py-2 text-white text-sm font-medium"
+				>
+					<a href="/"> Request Invite </a>
+				</div>
+			</nav>
+		</header>
+
+		<!-- scrollbar-hidden -->
+		<!-- w-full -->
+		<main class="">
+			<!-- hero-section -->
+			<!-- bg-[url(')] -->
+
+			<!-- border-black border-2  flex justify-around items-center  bg-no-repeat" style="background-image: url(./images/bg-intro-desktop.svg)" -->
+
+			<div class="flex flex-col-reverse pb-14 sm:mb-[100px]">
+				<!-- left-side -->
+
+				<!-- class="border-black border-2 grid grid-rows-3 justify-around" -->
+
+				<!-- "h-screen   border-black border-2 mx-[50px]  " -->
+
+				<div
+					class="relative top-[190px] z-10 my-[150px] pl-6 text-center sm:grid sm:justify-items-start sm:pl-[100px] sm:top-[60px]"
+				>
+					<!-- "    w-[200px]font-[700] font-PublicSans" -->
+
+					<h1
+						class="text-4xl mb-6 text-[#2d314d] sm:w-[270px] sm:text-left"
+					>
+						Next generation digital banking
+					</h1>
+
+					<!-- w-[350px] mb-5 -->
+					<!-- border-black border-2 -->
+
+					<p class="text-[#9698a6] sm:w-[380px] sm:text-justify">
+						Take your financial life online. Your Easybank account will be
+						a one-stop-shop for spending, saving, budgeting, investing,
+						and much more.
+					</p>
+
+					<div class="mt-6">
+						<a href="/">
+							<button
+								type=" button"
+								class="rounded-full bg-gradient-to-r from-[#31d35c] to-[#2bb7da] px-6 py-3 text-white text-sm font-medium"
+							>
+								Request Invite
+							</button>
+						</a>
+					</div>
+				</div>
+
+				<!-- right-side -->
+				<!-- border-black border-2 -->
+				<div class="relative z-0 w-full">
+					<img
+						src="./images/bg-intro-mobile.svg"
+						alt=""
+						class="absolute -top-[46px] sm:hidden"
+					/>
+
+					<img
+						src="./images/bg-intro-desktop.svg"
+						alt=""
+						class="invisible absolute -top-[240px] -right-[470px] sm:visible"
+					/>
+
+					<!-- sm:absolute sm:-top-[95px] sm:-right-[150px] -->
+					<img
+						src="./images/image-mockups.png"
+						alt="phone mockup"
+						class="px-4 absolute -top-[102px] sm:absolute sm:-top-[90px] sm:-right-[150px]"
+					/>
+				</div>
+
+				<!--  -->
+				<!-- -->
+			</div>
+
+			<!-- why choose us section -->
+
+			<!-- class="bg-[#f3f4f6] pt-11 grid" -->
+			<div class="bg-[#f3f4f6] mt-12 pb-8 sm:p-[88px]">
+				<div class="text-center px-2 sm:text-start">
+					<h1 class="text-[#2d314d] text-4xl mb-4">
+						Why choose Easybank?
+					</h1>
+					<p class="text-[#9698a6] sm:w-[570px]">
+						We leverage Open Banking to turn your bank account into your
+						financial hub. Control your finances like never before.
+					</p>
+				</div>
+
+				<div class="grid grid-rows-4 items-center px-2 sm:flex sm:gap-5">
+					<!-- features -->
+					<div
+						class="grid justify-items-center text-center mt-6 sm:justify-items-start"
+					>
+						<img src="./images/icon-online.svg" alt="" />
+
+						<h4 class="text-[18px] text-[#2d314d] py-4">
+							Online Banking
+						</h4>
+
+						<p class="text-[#9698a6] sm:text-left">
+							Our modern web and mobile applications allow you to keep
+							track of your finances wherever you are in the world.
+						</p>
+					</div>
+
+					<div
+						class="grid justify-items-center text-center mt-6 sm:justify-items-start"
+					>
+						<img src="./images/icon-budgeting.svg" alt="" />
+
+						<h4 class="text-[18px] text-[#2d314d] py-4">
+							Simple Budgeting
+						</h4>
+
+						<p class="text-[#9698a6] sm:text-justify">
+							See exactly where your money goes each month. Receive
+							notifications when you’re close to hitting your limits.
+						</p>
+					</div>
+
+					<div
+						class="grid justify-items-center text-center mt-6 sm:justify-items-start"
+					>
+						<img src="./images/icon-onboarding.svg" alt="" />
+
+						<h4 class="text-[18px] text-[#2d314d] py-4">
+							Fast Onboarding
+						</h4>
+
+						<p class="text-[#9698a6] sm:text-left">
+							We don’t do branches. Open your account in minutes online
+							and start taking control of your finances right away.
+						</p>
+					</div>
+
+					<div
+						class="grid justify-items-center text-center mt-6 sm:justify-items-start"
+					>
+						<img src="./images/icon-api.svg" alt="" />
+
+						<h4 class="text-[18px] text-[#2d314d] py-4">Open API</h4>
+
+						<p class="text-[#9698a6] mb-8 sm:text-left">
+							Manage your savings, investments, pension, and much more
+							from one account. Tracking your money has never been
+							easier.
+						</p>
+					</div>
+				</div>
+			</div>
+
+			<!-- latest-article section -->
+			<!-- border-black border-2 -->
+			<div class="bg-[#fafafa] sm:px-[72px]">
+				<h1
+					class="text-center px-2 text-[#2d314d] text-4xl pt-14 mb-6 sm:text-left sm:pl-[25px]"
+				>
+					Latest Articles
+				</h1>
+
+				<!-- class="flex" -->
+				<div
+					class="px-6 grid grid-rows-4 justify-center items-center sm:flex sm:gap-5 sm:pb-[50px]"
+				>
+					<div class="bg-[#ffffff] pb-5 mb-4 sm:h-[420px]">
+						<img
+							src="./images/image-currency.jpg"
+							alt=""
+							class="sm:h-[175px] sm:w-[300px] rounded-t-md"
+						/>
+
+						<div class="m-4 text-justify">
+							<p class="text-xs py-3 text-[#9698a6]">
+								By Claire Robinson
+							</p>
+							<h2 class="text-[#2d314d] text-[18px] leading-tight pb-2">
+								Receive money in any currency with no fees
+							</h2>
+							<p class="text-[#9698a6] text-[14px]">
+								The world is getting smaller and we’re becoming more
+								mobile. So why should you be forced to only receive
+								money in a single …
+							</p>
+						</div>
+					</div>
+
+					<div class="bg-[#ffffff] pb-5 mb-4 sm:h-[420px]">
+						<img
+							class="rounded-t-md sm:h-[175px]"
+							src="./images/image-restaurant.jpg"
+							alt=""
+						/>
+
+						<div class="m-4 text-justify">
+							<p class="text-xs py-3 text-[#9698a6]">By Wilson Hutton</p>
+							<h2 class="text-[#2d314d] text-[18px] leading-tight pb-2">
+								Treat yourself without worrying about money
+							</h2>
+							<p class="text-[#9698a6] text-[14px]">
+								Our simple budgeting feature allows you to separate out
+								your spending and set realistic limits each month. That
+								means you …
+							</p>
+						</div>
+					</div>
+
+					<div class="bg-[#ffffff] pb-5 mb-4 sm:h-[420px]">
+						<img
+							class="sm:h-[175px] sm:w-[300px] rounded-t-md"
+							src="./images/image-plane.jpg"
+							alt=""
+						/>
+
+						<div class="m-4 text-justify">
+							<p class="text-xs py-3 text-[#9698a6]">By Wilson Hutton</p>
+							<h2 class="text-[#2d314d] text-[18px] leading-tight pb-2">
+								Take your Easybank card wherever you go
+							</h2>
+							<p class="text-[#9698a6] text-[14px]">
+								We want you to enjoy your travels. This is why we don’t
+								charge any fees on purchases while you’re abroad. We’ll
+								even show you …
+							</p>
+						</div>
+					</div>
+
+					<div class="bg-[#ffffff] pb-5 mb-4 sm:h-[420px]">
+						<img
+							class="sm:h-[175px] sm:w-[300px] rounded-t-md"
+							src="./images/image-confetti.jpg"
+							alt=""
+						/>
+
+						<div class="m-4 text-justify">
+							<p class="text-xs py-3 text-[#9698a6]">
+								By Claire Robinson
+							</p>
+							<h2 class="text-[#2d314d] text-[18px] leading-tight pb-2">
+								Our invite-only Beta accounts are now live!
+							</h2>
+							<p class="text-[#9698a6] text-[14px]">
+								After a lot of hard work by the whole team, we’re
+								excited to launch our closed beta. It’s easy to request
+								an invite through the site ...
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+
+		<!-- footer section -->
+		<footer class="bg-[#2d314d]">
+			<!-- class="bg-[#2d314d] border-black border-2 flex justify-around class="flex justify-between"" -->
+			<div
+				class="grid bg-[#2D314D] justify-center items-center py-5 sm:grid-cols-4 sm:gap-4 sm:py-[54px]"
+			>
+				<!-- left side -->
+
+				<!--  text-center mt-6 -->
+
+				<div class="grid justify-items-center sm:gap-4">
+					<!-- class="sm:mb-[24px]" -->
+					<img src="./images/logo - white.svg" alt="logo" />
+					<!-- border-black border-2 -->
+
+					<div class="my-4 flex items-center gap-4 sm:ml-7">
+						<a href="/">
+							<img src="./images/icon-facebook.svg" alt="facebook" />
+						</a>
+						<a href="/">
+							<img src="./images/icon-youtube.svg" alt="youtube" />
+						</a>
+						<a href="/">
+							<img src="./images/icon-twitter.svg" alt="twitter" />
+						</a>
+						<a href="/">
+							<img src="./images/icon-pinterest.svg" alt="pinterest" />
+						</a>
+						<a href="/">
+							<img src="./images/icon-instagram.svg" alt="instagram" />
+						</a>
+					</div>
+				</div>
+
+				<div class="sm:flex sm:place-content-between sm:px-6">
+					<div class="text-center grid justify-center sm:text-start">
+						<ul class="text-[#ffffff] leading-loose">
+							<li><a href="/">About Us</a></li>
+							<li><a href="/">Contact</a></li>
+							<li><a href="/">Blog</a></li>
+						</ul>
+					</div>
+					<div class="text-center grid justify-center sm:text-start">
+						<ul class="text-[#ffffff] leading-loose">
+							<li><a href="/">Careers</a></li>
+							<li><a href="/">Support</a></li>
+							<li><a href="/">Privacy Policy</a></li>
+						</ul>
+					</div>
+				</div>
+
+				<!-- middle -->
+
+				<!-- right side -->
+
+				<div class="text-center sm:place-self-start sm:col-start-4 sm:text-end">
+					<a href="/">
+						<button
+							type=" button"
+							class="rounded-full bg-gradient-to-r from-[#31d35c] to-[#2bb7da] px-7 py-3 text-white text-sm font-medium my-6 sm:mb-6 sm:my-0"
+						>
+							Request Invite
+						</button>
+					</a>
+
+					<p class="text-[#9698a6]">© Easybank. All Rights Reserved</p>
+				</div>
+			</div>
+		</footer>
+	</body>
+</html>
